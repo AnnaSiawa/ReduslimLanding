@@ -196,7 +196,7 @@ body {
 
 .eng {
   cursor: pointer;
-  background: url(src/eng.png) no-repeat;
+  background: url(src/eng.PNG) no-repeat;
   background-size: 25px;
   background-position: 60% 50%;
 }
