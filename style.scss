@@ -168,7 +168,7 @@ body{
 }
 .eng {
 	cursor: pointer;
-	background: url(src/eng.png) no-repeat;
+	background: url(src/eng.PNG) no-repeat;
 	background-size: 25px;
 	background-position: 60% 50%;
 }
@@ -356,7 +356,10 @@ body{
 			font-size: 10px;
 		}
 	}
-	.ru, .eng {
+	.ru {
+		background-size: 20px;
+	}
+	.eng {
 		background-size: 20px;
 	}
 }
