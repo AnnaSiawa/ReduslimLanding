@@ -1,0 +1,411 @@
+.reduslim__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container2, .container1 {
+  height: 500px;
+  min-width: 50%;
+}
+
+.registration__phone, .registration__name {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+}
+.registration__phone span, .registration__name span {
+  color: #428A60;
+}
+
+.registration__country, .registration__input {
+  padding: 2px 0 0 19px;
+  background: #F8F8F8;
+  border: 1px solid #E4E4E4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  height: 50px;
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #E5E5E5;
+}
+
+.reduslim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.reduslim__wrap {
+  min-height: 650px;
+  max-width: 1120px;
+  width: 100%;
+}
+
+.container1 {
+  color: #fff;
+  background-color: #35734F;
+}
+.container1__wrap {
+  margin: 40px 0 0 40px;
+}
+.container1__header {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 380px;
+}
+.container1__disc {
+  font-size: 18px;
+}
+.container1__logo {
+  position: relative;
+}
+
+.logo__ellipse {
+  position: absolute;
+  bottom: -20px;
+  right: 140px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.logo__tablet {
+  position: absolute;
+  bottom: -20px;
+  right: 45px;
+  max-width: 460px;
+  width: 100%;
+}
+
+.container2 {
+  background-color: #fff;
+}
+.container2__header {
+  padding: 30px;
+  line-height: 130%;
+  text-align: center;
+  background-color: #F8F8F8;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration__name {
+  margin-bottom: 11px;
+}
+.registration__input.name {
+  max-width: 320px;
+  width: 100%;
+  margin-bottom: 21px;
+}
+.registration__input.phone {
+  width: 184px;
+  margin-right: 23px;
+}
+.registration__phone {
+  margin-bottom: 11px;
+}
+.registration__wrap {
+  max-width: 320px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 39px;
+}
+.registration__country {
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 116px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.registration__button {
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  height: 42px;
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #428A60;
+  color: #fff;
+  max-width: 320px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration__button .text {
+  margin-right: 10px;
+}
+.registration__secure {
+  display: none;
+}
+
+.ru {
+  cursor: pointer;
+  background: url(src/ru.png) no-repeat;
+  background-size: 27px;
+  background-position: 60% 50%;
+}
+
+.eng {
+  cursor: pointer;
+  background: url(src/eng.png) no-repeat;
+  background-size: 25px;
+  background-position: 60% 50%;
+}
+
+.arrow {
+  cursor: pointer;
+  position: relative;
+}
+.arrow__right {
+  position: relative;
+  width: 15px;
+  height: 2px;
+  background-color: #fff;
+  left: 0;
+  display: block;
+}
+.arrow__right::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 2px;
+  left: 11px;
+  top: -2px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.arrow__right::before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 2px;
+  left: 11px;
+  top: 2px;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+@media (max-width: 1130px) {
+  .logo__ellipse {
+    max-width: 300px;
+    bottom: 30px;
+  }
+
+  .logo__tablet {
+    max-width: 350px;
+    bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .container2__header {
+    font-size: 20px;
+  }
+}
+@media (max-width: 660px) {
+  .container2__header {
+    font-size: 14px;
+  }
+
+  .registration__input.name {
+    max-width: 200px;
+  }
+  .registration__input.phone {
+    margin-bottom: 15px;
+  }
+  .registration__wrap {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .logo__ellipse {
+    bottom: 90px;
+    right: 50px;
+  }
+
+  .logo__tablet {
+    bottom: 90px;
+    right: 10px;
+  }
+
+  .container2 br {
+    content: "";
+  }
+
+  .registration {
+    margin-left: 15px;
+  }
+  .registration__input.name {
+    max-width: 150px;
+  }
+  .registration__input.phone {
+    width: 150px;
+  }
+  .registration__country {
+    width: 100px;
+  }
+  .registration__button {
+    max-width: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .reduslim__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 727px;
+  }
+
+  .container1 {
+    min-width: 100%;
+    height: 311px;
+    margin-top: 58px;
+    background-color: #fff;
+    color: #000;
+  }
+  .container1__wrap {
+    margin: 40px 20px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container1__header {
+    margin: 0;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .logo__ellipse {
+    width: 202px;
+    top: 25px;
+    left: -125px;
+  }
+
+  .logo__tablet {
+    width: 225px;
+    top: 70px;
+    left: -130px;
+  }
+
+  .container2 {
+    min-width: 100%;
+    height: 416px;
+  }
+  .container2 br {
+    content: "";
+  }
+  .container2__header {
+    font-size: 30px;
+    margin: 0;
+    padding: 0 30px 30px 30px;
+    background-color: #fff;
+  }
+
+  .registration {
+    margin-left: 0;
+  }
+  .registration__input {
+    padding: 2px 0 0 11px;
+  }
+  .registration__input.name {
+    max-width: 280px;
+  }
+  .registration__input.phone {
+    width: 174px;
+  }
+  .registration__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 280px;
+    margin-bottom: 15px;
+  }
+  .registration__button {
+    max-width: 280px;
+    margin-bottom: 37px;
+  }
+  .registration__wrap2 {
+    max-width: 160px;
+    margin: 0 auto;
+  }
+  .registration__secure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .registration__country {
+    font-size: 10px;
+  }
+
+  .ru, .eng {
+    background-size: 20px;
+  }
+}
